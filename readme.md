@@ -16,3 +16,5 @@ or
 	$ python path_to_the_script_directory_goes_here/add_cover_img_to_mp3.py
 ```
 If you didn't provide the paths to mp3 files and images on launching, the script will ask for them later.
+
+**Warning**: existing audio tags will be cleared by the script
