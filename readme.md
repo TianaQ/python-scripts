@@ -1,6 +1,7 @@
 
 # Small Python scripts 
 
+### Adding cover image to mp3 file
 * [add_cover_img_to_mp3.py](https://github.com/TianaQ/python-scripts/blob/master/add_cover_img_to_mp3.py)  
 
 I found some audiobooks for my little son that were on vinil in my childhood. But he couldn't select a specific title in a playlist because he couldn't read yet. So I decided to add cover images of the records to the mp3 files I had. Maybe, you need that too?
