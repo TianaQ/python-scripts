@@ -21,7 +21,7 @@ If you didn't provide the paths to mp3 files and images on launching, the script
 
 
 
-### Readind csv files from a directory into pandas DataFrame and .csv file
+### Reading csv files from a directory into pandas DataFrame and .csv file
 * [dir_to_df_and_csv.py](https://github.com/TianaQ/python-scripts/blob/master/dir_to_df_and_csv.py)
 
 Launch the script from the command line with the path to the data directory with csv files
@@ -38,4 +38,4 @@ If you want to extract only specific columns, change this part of code as descri
 	col_names = []
 ```
 
-The script will create pandas Dataframe and write it to *data_dir.csv* file in the folder where the data directory is stored.
+The script will create pandas Dataframe and write it to **data_dir.csv** file in the folder where the data directory is stored.
