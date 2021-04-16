@@ -15,7 +15,7 @@ import random
 NUMBERS = tuple(range(13))
 
 # probabilities for each number, adjust to your needs
-WEIGHTS = (0.01, 0.01, 0.01, 0.5, 0.5, 0.3, 0.11,
+WEIGHTS = (0.01, 0.01, 0.01, 0.05, 0.05, 0.03, 0.11,
            0.11, 0.11, 0.11, 0.05, 0.17, 0.18)
 
 # response options for right and wrong cases
@@ -79,18 +79,24 @@ def attempt_to_answer(product, equation, equation_help, attempts=0):
     it prints the equation with additional helpful hints.
     """
 
-    answer = int(input())
+    try:
+    	answer = int(input())
+    except:
+    	print("Enter a number")
+    	answer = -1
     attempts += 1
 
     if answer == product:
         print(random.choice(RESPONSE_CORRECT))
         return attempts
+    elif answer == -1:
+    	attempts -= 1
+    	return attempt_to_answer(product, equation, equation_help, attempts)
     else:
         print(random.choice(RESPONSE_WRONG))
         if attempts > 1:
             print(equation + equation_help)
         return attempt_to_answer(product, equation, equation_help, attempts)
-
 
 def play_round():
     """
@@ -132,8 +138,7 @@ def main():
     """
     
     print("\nHi! Let's start the multiplication practice game!")
-    print("-------------------------------------------------")
-    print("If you enter not a number the program will break.\n")
+    print("-------------------------------------------------\n")
 
     try:
         play_game()

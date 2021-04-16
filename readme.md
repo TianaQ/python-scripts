@@ -14,6 +14,8 @@ Launch with
 ```
 and have fun! 
 
+---
+
 ### Adding cover image to mp3 file
 * [add_cover_img_to_mp3.py](https://github.com/TianaQ/python-scripts/blob/master/add_cover_img_to_mp3.py)  
 
@@ -32,7 +34,7 @@ If you didn't provide the paths to mp3 files and images on launching, the script
 
 **Warning**: existing audio tags will be cleared by the script
 
-
+---
 
 ### Reading csv files from a directory into pandas DataFrame and .csv file
 * [dir_to_df_and_csv.py](https://github.com/TianaQ/python-scripts/blob/master/dir_to_df_and_csv.py)
