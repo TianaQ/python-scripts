@@ -1,6 +1,19 @@
 
 # Small Python scripts 
 
+### Multiplication practice game 
+* [mult_practice.py ](https://github.com/TianaQ/python-scripts/blob/master/mult_practice.py)
+
+I'm trying both to talk my son into Python and to provide him with some additional math practice, so I made this simple game for him. He found it a nice excuse to occupy my laptop from time to time.
+
+![game example](https://github.com/TianaQ/python-scripts/blob/master/mult_practice_example.png|width=200)
+
+Launch with 
+```
+	$ python mult_practice.py
+```
+and have fun! 
+
 ### Adding cover image to mp3 file
 * [add_cover_img_to_mp3.py](https://github.com/TianaQ/python-scripts/blob/master/add_cover_img_to_mp3.py)  
 
