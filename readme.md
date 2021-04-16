@@ -6,7 +6,7 @@
 
 I'm trying both to talk my son into Python and to provide him with some additional math practice, so I made this simple game for him. He found it a nice excuse to occupy my laptop from time to time.
 
-![game example](https://github.com/TianaQ/python-scripts/blob/master/mult_practice_example.png|width=200)
+![game example](https://github.com/TianaQ/python-scripts/blob/master/mult_practice_example.png)
 
 Launch with 
 ```
